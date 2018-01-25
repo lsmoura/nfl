@@ -1,0 +1,76 @@
+{
+  "2016080751": {
+    "home": {
+      "score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "T": 0
+      },
+      "abbr": "IND",
+      "to": 3,
+      "stats": {
+        "team": {
+          "totfd": 0,
+          "totyds": 0,
+          "pyds": 0,
+          "ryds": 0,
+          "pen": 0,
+          "penyds": 0,
+          "trnovr": 0,
+          "pt": 0,
+          "ptyds": 0,
+          "ptavg": 0,
+          "top": "0:00"
+        }
+      },
+      "players": null
+    },
+    "away": {
+      "score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "T": 0
+      },
+      "abbr": "GB",
+      "to": 3,
+      "stats": {
+        "team": {
+          "totfd": 0,
+          "totyds": 0,
+          "pyds": 0,
+          "ryds": 0,
+          "pen": 0,
+          "penyds": 0,
+          "trnovr": 0,
+          "pt": 0,
+          "ptyds": 0,
+          "ptavg": 0,
+          "top": "0:00"
+        }
+      },
+      "players": null
+    },
+    "drives": {
+      "crntdrv": 1
+    },
+    "scrsummary": {},
+    "weather": null,
+    "media": null,
+    "yl": "",
+    "qtr": "Final",
+    "note": null,
+    "down": 0,
+    "togo": 0,
+    "redzone": true,
+    "clock": "15:00",
+    "posteam": "GB",
+    "stadium": null
+  },
+  "nextupdate": 11
+}
