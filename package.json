@@ -1,0 +1,10 @@
+{
+  "name": "nfl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sergio Moura <sergio@moura.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.7.3"
+  }
+}
