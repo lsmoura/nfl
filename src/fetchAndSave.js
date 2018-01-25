@@ -7,12 +7,21 @@ const asyncUtils = require('./asyncUtils');
 const arrayMap = asyncUtils.arrayMap;
 const arrayEach = asyncUtils.arrayEach;
 
-const number = 2018012100;
 const urlGenerator = (number) => `http://www.nfl.com/liveupdate/game-center/${number}/${number}_gtd.json`
 
 const jsondir = path.join(__dirname, '..', 'json');
 
-const fetchJson = (url) => fetch(url).then(result => JSON.parse(result));
+const fetchJson = (url) => fetch(url)
+  .then(result => {
+    try {
+      const returnValue = JSON.parse(result);
+      return returnValue;
+    } catch (err) {
+      console.error(`cannot parse data from ${url}`);
+      fetch.cache.del(url);
+      return null;
+    }
+  });
 const fetchText = (url) => fetch(url);
 
 function fsWriteFile(file, data, options) {
@@ -69,8 +78,9 @@ async function weekGames(season, seasonType, week) {
 
 async function execute(number) {
   const url = urlGenerator(number);
-
   const result = await fetchJson(url);
+
+  if (!result) return null;
 
   const data = JSON.stringify(result, null, 2);
 
@@ -117,6 +127,7 @@ async function run(year) {
   console.log(`Fetching data for ${year} games`);
   const returnValue = await arrayEach(seasonTypes, async (type) => await fetchSeasonType(year, type));
   fetch.disconnect();
+  console.log('done.');
 
   return returnValue;
 }

@@ -25,6 +25,11 @@ const cacheGet = (key, expire = 0) => {
         return;
       }
 
+      if (!response) {
+        accept(null);
+        return;
+      }
+
       try {
         const contents = JSON.parse(response);
         if (!contents.data || !contents.time) {
@@ -33,7 +38,9 @@ const cacheGet = (key, expire = 0) => {
           accept(contents.data);
         }
       } catch (err) {
-        console.warn('error parsing redis cached response');
+        console.warn(`error parsing redis cached response for ${key}`);
+        console.warn(response);
+        cacheDel(key);
         accept(null);
         return;
       }
@@ -65,6 +72,7 @@ const fetcher = async (url, ...args) => {
   const cachedValue = await cacheGet(url);
   if (cachedValue !== null) return cachedValue;
 
+  console.log(`retrieving ${url}...`);
   const response = await fetch(url, ...args);
   const text = await response.text();
 
