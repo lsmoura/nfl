@@ -1,0 +1,1765 @@
+{
+  "2014081503": {
+    "home": {
+      "score": {
+        "1": 0,
+        "2": 10,
+        "3": 7,
+        "4": 10,
+        "5": 0,
+        "T": 27
+      },
+      "abbr": "OAK",
+      "to": 1,
+      "stats": {
+        "passing": {
+          "00-0031280": {
+            "name": "D.Carr",
+            "att": 16,
+            "cmp": 9,
+            "yds": 109,
+            "tds": 1,
+            "ints": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0030419": {
+            "name": "M.McGloin",
+            "att": 15,
+            "cmp": 7,
+            "yds": 114,
+            "tds": 1,
+            "ints": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0022787": {
+            "name": "M.Schaub",
+            "att": 13,
+            "cmp": 8,
+            "yds": 87,
+            "tds": 0,
+            "ints": 1,
+            "twopta": 0,
+            "twoptm": 0
+          }
+        },
+        "rushing": {
+          "00-0026144": {
+            "name": "D.McFadden",
+            "att": 8,
+            "yds": 27,
+            "tds": 1,
+            "lng": 8,
+            "lngtd": 1,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0026769": {
+            "name": "K.Sheets",
+            "att": 5,
+            "yds": 27,
+            "tds": 0,
+            "lng": 8,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0030513": {
+            "name": "L.Murray",
+            "att": 2,
+            "yds": 13,
+            "tds": 0,
+            "lng": 8,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0029129": {
+            "name": "R.Streater",
+            "att": 1,
+            "yds": 13,
+            "tds": 0,
+            "lng": 13,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0024275": {
+            "name": "M.Jones-Drew",
+            "att": 6,
+            "yds": 12,
+            "tds": 0,
+            "lng": 8,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0029492": {
+            "name": "J.Olawale",
+            "att": 1,
+            "yds": 4,
+            "tds": 0,
+            "lng": 4,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0030419": {
+            "name": "M.McGloin",
+            "att": 1,
+            "yds": 3,
+            "tds": 0,
+            "lng": 3,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0031280": {
+            "name": "D.Carr",
+            "att": 1,
+            "yds": -1,
+            "tds": 0,
+            "lng": -1,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          }
+        },
+        "receiving": {
+          "00-0030516": {
+            "name": "B.Butler",
+            "rec": 4,
+            "yds": 74,
+            "tds": 1,
+            "lng": 29,
+            "lngtd": 19,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0027997": {
+            "name": "G.Little",
+            "rec": 2,
+            "yds": 49,
+            "tds": 0,
+            "lng": 38,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0028263": {
+            "name": "A.Holmes",
+            "rec": 2,
+            "yds": 42,
+            "tds": 0,
+            "lng": 29,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0025465": {
+            "name": "J.Jones",
+            "rec": 2,
+            "yds": 29,
+            "tds": 0,
+            "lng": 16,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0030514": {
+            "name": "M.Rivera",
+            "rec": 2,
+            "yds": 26,
+            "tds": 0,
+            "lng": 18,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0029129": {
+            "name": "R.Streater",
+            "rec": 2,
+            "yds": 8,
+            "tds": 0,
+            "lng": 6,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0030513": {
+            "name": "L.Murray",
+            "rec": 2,
+            "yds": 5,
+            "tds": 0,
+            "lng": 5,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0026769": {
+            "name": "K.Sheets",
+            "rec": 2,
+            "yds": 1,
+            "tds": 0,
+            "lng": 4,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0031167": {
+            "name": "S.Simonson",
+            "rec": 1,
+            "yds": 24,
+            "tds": 0,
+            "lng": 24,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0024275": {
+            "name": "M.Jones-Drew",
+            "rec": 1,
+            "yds": 22,
+            "tds": 0,
+            "lng": 22,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0026393": {
+            "name": "M.Reece",
+            "rec": 1,
+            "yds": 10,
+            "tds": 0,
+            "lng": 10,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0029441": {
+            "name": "J.Stewart",
+            "rec": 1,
+            "yds": 9,
+            "tds": 0,
+            "lng": 9,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0028086": {
+            "name": "D.Moore",
+            "rec": 1,
+            "yds": 8,
+            "tds": 0,
+            "lng": 8,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0031165": {
+            "name": "J.Murphy",
+            "rec": 1,
+            "yds": 3,
+            "tds": 1,
+            "lng": 3,
+            "lngtd": 3,
+            "twopta": 0,
+            "twoptm": 0
+          }
+        },
+        "fumbles": {
+          "00-0031167": {
+            "name": "S.Simonson",
+            "tot": 1,
+            "rcv": 0,
+            "trcv": 0,
+            "yds": 0,
+            "lost": 1
+          }
+        },
+        "kicking": {
+          "00-0019646": {
+            "name": "S.Janikowski",
+            "fgm": 2,
+            "fga": 2,
+            "fgyds": 36,
+            "totpfg": 6,
+            "xpmade": 3,
+            "xpmissed": 0,
+            "xpa": 3,
+            "xpb": 0,
+            "xptot": 3
+          }
+        },
+        "punting": {
+          "00-0029123": {
+            "name": "M.King",
+            "pts": 3,
+            "yds": 138,
+            "avg": 45,
+            "i20": 1,
+            "lng": 53
+          }
+        },
+        "kickret": {
+          "00-0026769": {
+            "name": "K.Sheets",
+            "ret": 2,
+            "avg": 28,
+            "tds": 0,
+            "lng": 30,
+            "lngtd": 0
+          },
+          "00-0030513": {
+            "name": "L.Murray",
+            "ret": 2,
+            "avg": 17,
+            "tds": 0,
+            "lng": 18,
+            "lngtd": 0
+          }
+        },
+        "puntret": {
+          "00-0031269": {
+            "name": "T.Carrie",
+            "ret": 2,
+            "avg": 31,
+            "tds": 0,
+            "lng": 50,
+            "lngtd": 0
+          },
+          "00-0028086": {
+            "name": "D.Moore",
+            "ret": 1,
+            "avg": 11,
+            "tds": 0,
+            "lng": 11,
+            "lngtd": 0
+          }
+        },
+        "defense": {
+          "00-0027074": {
+            "name": "K.Maiava",
+            "tkl": 3,
+            "ast": 2,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0023444": {
+            "name": "C.Rogers",
+            "tkl": 4,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0027759": {
+            "name": "L.Asante",
+            "tkl": 4,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0030529": {
+            "name": "S.Moore",
+            "tkl": 3,
+            "ast": 1,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0029631": {
+            "name": "M.Burris",
+            "tkl": 1,
+            "ast": 3,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0026240": {
+            "name": "T.Branch",
+            "tkl": 3,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0031040": {
+            "name": "K.Mack",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 1,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0025534": {
+            "name": "T.Brown",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0023509": {
+            "name": "J.Tuck",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0031270": {
+            "name": "S.Harris",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0031347": {
+            "name": "K.McGill",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0024750": {
+            "name": "N.Roach",
+            "tkl": 1,
+            "ast": 1,
+            "sk": 1,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0030368": {
+            "name": "C.Casey",
+            "tkl": 1,
+            "ast": 1,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0031272": {
+            "name": "J.Dowling",
+            "tkl": 0,
+            "ast": 2,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0030371": {
+            "name": "R.Robinson",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0025433": {
+            "name": "L.Woodley",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0018227": {
+            "name": "C.Woodson",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0027822": {
+            "name": "C.Wilson",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0026217": {
+            "name": "P.Sims",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0030515": {
+            "name": "S.McGee",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0031226": {
+            "name": "J.Watson",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0031269": {
+            "name": "T.Carrie",
+            "tkl": 0,
+            "ast": 1,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0029118": {
+            "name": "K.Burnett",
+            "tkl": 0,
+            "ast": 1,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          }
+        },
+        "team": {
+          "totfd": 24,
+          "totyds": 404,
+          "pyds": 306,
+          "ryds": 98,
+          "pen": 7,
+          "penyds": 65,
+          "trnovr": 2,
+          "pt": 3,
+          "ptyds": 138,
+          "ptavg": 45,
+          "top": "29:23"
+        }
+      },
+      "players": null
+    },
+    "away": {
+      "score": {
+        "1": 13,
+        "2": 3,
+        "3": 7,
+        "4": 3,
+        "5": 0,
+        "T": 26
+      },
+      "abbr": "DET",
+      "to": 1,
+      "stats": {
+        "passing": {
+          "00-0023578": {
+            "name": "D.Orlovsky",
+            "att": 12,
+            "cmp": 8,
+            "yds": 153,
+            "tds": 0,
+            "ints": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0026498": {
+            "name": "M.Stafford",
+            "att": 10,
+            "cmp": 9,
+            "yds": 88,
+            "tds": 2,
+            "ints": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0029234": {
+            "name": "K.Moore",
+            "att": 8,
+            "cmp": 5,
+            "yds": 50,
+            "tds": 0,
+            "ints": 0,
+            "twopta": 0,
+            "twoptm": 0
+          }
+        },
+        "rushing": {
+          "00-0027995": {
+            "name": "M.Leshoure",
+            "att": 7,
+            "yds": 23,
+            "tds": 0,
+            "lng": 6,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0030247": {
+            "name": "G.Winn",
+            "att": 8,
+            "yds": 9,
+            "tds": 1,
+            "lng": 4,
+            "lngtd": 1,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0024217": {
+            "name": "R.Bush",
+            "att": 3,
+            "yds": 7,
+            "tds": 0,
+            "lng": 8,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0027218": {
+            "name": "J.Bell",
+            "att": 3,
+            "yds": 7,
+            "tds": 0,
+            "lng": 3,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0029885": {
+            "name": "S.Miller",
+            "att": 2,
+            "yds": 5,
+            "tds": 0,
+            "lng": 4,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0030107": {
+            "name": "T.Riddick",
+            "att": 2,
+            "yds": 1,
+            "tds": 0,
+            "lng": 6,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0028249": {
+            "name": "J.Ross",
+            "att": 1,
+            "yds": 0,
+            "tds": 0,
+            "lng": 0,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          }
+        },
+        "receiving": {
+          "00-0027891": {
+            "name": "G.Tate",
+            "rec": 3,
+            "yds": 41,
+            "tds": 1,
+            "lng": 28,
+            "lngtd": 28,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0028249": {
+            "name": "J.Ross",
+            "rec": 2,
+            "yds": 42,
+            "tds": 0,
+            "lng": 23,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0029209": {
+            "name": "R.Broyles",
+            "rec": 2,
+            "yds": 42,
+            "tds": 0,
+            "lng": 34,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0031387": {
+            "name": "E.Ebron",
+            "rec": 2,
+            "yds": 36,
+            "tds": 0,
+            "lng": 23,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0030647": {
+            "name": "J.Thompson",
+            "rec": 2,
+            "yds": 29,
+            "tds": 0,
+            "lng": 23,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0030729": {
+            "name": "A.Peacock",
+            "rec": 2,
+            "yds": 14,
+            "tds": 0,
+            "lng": 12,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0029227": {
+            "name": "P.Edwards",
+            "rec": 2,
+            "yds": 12,
+            "tds": 0,
+            "lng": 7,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0028045": {
+            "name": "K.Durham",
+            "rec": 2,
+            "yds": 6,
+            "tds": 1,
+            "lng": 4,
+            "lngtd": 4,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0024217": {
+            "name": "R.Bush",
+            "rec": 2,
+            "yds": 2,
+            "tds": 0,
+            "lng": 1,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0030107": {
+            "name": "T.Riddick",
+            "rec": 1,
+            "yds": 36,
+            "tds": 0,
+            "lng": 36,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0026780": {
+            "name": "K.Ogletree",
+            "rec": 1,
+            "yds": 16,
+            "tds": 0,
+            "lng": 16,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          },
+          "00-0030095": {
+            "name": "C.Fuller",
+            "rec": 1,
+            "yds": 15,
+            "tds": 0,
+            "lng": 15,
+            "lngtd": 0,
+            "twopta": 0,
+            "twoptm": 0
+          }
+        },
+        "fumbles": {
+          "00-0030124": {
+            "name": "B.Hepburn",
+            "tot": 0,
+            "rcv": 0,
+            "trcv": 1,
+            "yds": 0,
+            "lost": 0
+          }
+        },
+        "kicking": {
+          "00-0031093": {
+            "name": "N.Freese",
+            "fgm": 1,
+            "fga": 1,
+            "fgyds": 55,
+            "totpfg": 3,
+            "xpmade": 1,
+            "xpmissed": 1,
+            "xpa": 2,
+            "xpb": 0,
+            "xptot": 1
+          },
+          "00-0028907": {
+            "name": "G.Tavecchio",
+            "fgm": 1,
+            "fga": 1,
+            "fgyds": 25,
+            "totpfg": 3,
+            "xpmade": 1,
+            "xpmissed": 0,
+            "xpa": 1,
+            "xpb": 0,
+            "xptot": 1
+          }
+        },
+        "punting": {
+          "00-0028952": {
+            "name": "D.Butler",
+            "pts": 3,
+            "yds": 159,
+            "avg": 25,
+            "i20": 0,
+            "lng": 55
+          },
+          "00-0030092": {
+            "name": "S.Martin",
+            "pts": 2,
+            "yds": 93,
+            "avg": 41,
+            "i20": 0,
+            "lng": 48
+          }
+        },
+        "kickret": {
+          "00-0029885": {
+            "name": "S.Miller",
+            "ret": 2,
+            "avg": 21,
+            "tds": 0,
+            "lng": 22,
+            "lngtd": 0
+          },
+          "00-0029227": {
+            "name": "P.Edwards",
+            "ret": 1,
+            "avg": 19,
+            "tds": 0,
+            "lng": 19,
+            "lngtd": 0
+          },
+          "00-0031284": {
+            "name": "T.Swanson",
+            "ret": 1,
+            "avg": 18,
+            "tds": 0,
+            "lng": 18,
+            "lngtd": 0
+          }
+        },
+        "puntret": {
+          "00-0029885": {
+            "name": "S.Miller",
+            "ret": 1,
+            "avg": 3,
+            "tds": 0,
+            "lng": 3,
+            "lngtd": 0
+          }
+        },
+        "defense": {
+          "00-0025753": {
+            "name": "J.Ihedigbo",
+            "tkl": 4,
+            "ast": 1,
+            "sk": 0,
+            "int": 1,
+            "ffum": 0
+          },
+          "00-0027050": {
+            "name": "D.Levy",
+            "tkl": 2,
+            "ast": 2,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0023624": {
+            "name": "C.Mosley",
+            "tkl": 3,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0030730": {
+            "name": "M.Seisay",
+            "tkl": 3,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0026635": {
+            "name": "A.Palmer",
+            "tkl": 1,
+            "ast": 2,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0024331": {
+            "name": "S.Tulloch",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0022080": {
+            "name": "R.Mathis",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0029216": {
+            "name": "J.Green",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0030124": {
+            "name": "B.Hepburn",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0028564": {
+            "name": "I.Abdul-Quddus",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0031360": {
+            "name": "K.Van Noy",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0029804": {
+            "name": "A.Hester",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0029212": {
+            "name": "T.Whitehead",
+            "tkl": 2,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0030722": {
+            "name": "J.Couplin",
+            "tkl": 1,
+            "ast": 1,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0030600": {
+            "name": "X.Proctor",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 1,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0029213": {
+            "name": "C.Greenwood",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0028084": {
+            "name": "D.Gomes",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 1
+          },
+          "00-0024278": {
+            "name": "D.Tapp",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0027951": {
+            "name": "N.Fairley",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0026227": {
+            "name": "A.Fluellen",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0031071": {
+            "name": "C.Reid",
+            "tkl": 1,
+            "ast": 0,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0029217": {
+            "name": "T.Lewis",
+            "tkl": 0,
+            "ast": 1,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0030062": {
+            "name": "D.Slay",
+            "tkl": 0,
+            "ast": 1,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0027081": {
+            "name": "G.Quin",
+            "tkl": 0,
+            "ast": 1,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0027290": {
+            "name": "C.Vaughn",
+            "tkl": 0,
+            "ast": 1,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0031214": {
+            "name": "G.Hickman",
+            "tkl": 0,
+            "ast": 1,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          },
+          "00-0021994": {
+            "name": "D.Florence",
+            "tkl": 0,
+            "ast": 1,
+            "sk": 0,
+            "int": 0,
+            "ffum": 0
+          }
+        },
+        "team": {
+          "totfd": 18,
+          "totyds": 331,
+          "pyds": 279,
+          "ryds": 52,
+          "pen": 11,
+          "penyds": 74,
+          "trnovr": 0,
+          "pt": 5,
+          "ptyds": 252,
+          "ptavg": 32,
+          "top": "30:37"
+        }
+      },
+      "players": null
+    },
+    "drives": {
+      "1": {
+        "posteam": "OAK",
+        "plays": {},
+        "fds": 2,
+        "result": "Interception",
+        "penyds": 0,
+        "ydsgained": 47,
+        "numplays": 0,
+        "postime": "4:23",
+        "start": {
+          "qtr": 1,
+          "time": "15:00",
+          "yrdln": "OAK 20",
+          "team": "OAK"
+        },
+        "end": {
+          "qtr": 1,
+          "time": "10:37",
+          "yrdln": "DET 33",
+          "team": "OAK"
+        }
+      },
+      "2": {
+        "posteam": "DET",
+        "plays": {},
+        "fds": 1,
+        "result": "Touchdown",
+        "penyds": 0,
+        "ydsgained": 36,
+        "numplays": 0,
+        "postime": "0:45",
+        "start": {
+          "qtr": 1,
+          "time": "10:37",
+          "yrdln": "OAK 36",
+          "team": "DET"
+        },
+        "end": {
+          "qtr": 1,
+          "time": "09:52",
+          "yrdln": "OAK 28",
+          "team": "DET"
+        }
+      },
+      "3": {
+        "posteam": "OAK",
+        "plays": {},
+        "fds": 0,
+        "result": "Punt",
+        "penyds": 0,
+        "ydsgained": 3,
+        "numplays": 0,
+        "postime": "1:08",
+        "start": {
+          "qtr": 1,
+          "time": "09:52",
+          "yrdln": "OAK 19",
+          "team": "OAK"
+        },
+        "end": {
+          "qtr": 1,
+          "time": "08:44",
+          "yrdln": "OAK 22",
+          "team": "OAK"
+        }
+      },
+      "4": {
+        "posteam": "DET",
+        "plays": {},
+        "fds": 4,
+        "result": "Touchdown",
+        "penyds": -10,
+        "ydsgained": 68,
+        "numplays": 0,
+        "postime": "6:43",
+        "start": {
+          "qtr": 1,
+          "time": "08:44",
+          "yrdln": "DET 42",
+          "team": "DET"
+        },
+        "end": {
+          "qtr": 1,
+          "time": "02:01",
+          "yrdln": "OAK 4",
+          "team": "DET"
+        }
+      },
+      "5": {
+        "posteam": "OAK",
+        "plays": {},
+        "fds": 1,
+        "result": "Punt",
+        "penyds": 5,
+        "ydsgained": 8,
+        "numplays": 0,
+        "postime": "1:47",
+        "start": {
+          "qtr": 1,
+          "time": "02:01",
+          "yrdln": "OAK 20",
+          "team": "OAK"
+        },
+        "end": {
+          "qtr": 1,
+          "time": "00:14",
+          "yrdln": "OAK 33",
+          "team": "OAK"
+        }
+      },
+      "6": {
+        "posteam": "DET",
+        "plays": {},
+        "fds": 0,
+        "result": "Punt",
+        "penyds": 0,
+        "ydsgained": -2,
+        "numplays": 0,
+        "postime": "1:43",
+        "start": {
+          "qtr": 1,
+          "time": "00:14",
+          "yrdln": "DET 14",
+          "team": "DET"
+        },
+        "end": {
+          "qtr": 1,
+          "time": "13:31",
+          "yrdln": "DET 12",
+          "team": "DET"
+        }
+      },
+      "7": {
+        "posteam": "OAK",
+        "qtr": 2,
+        "redzone": true,
+        "plays": {
+          "1400": {
+            "sp": 0,
+            "qtr": 2,
+            "down": 2,
+            "time": "09:35",
+            "yrdln": "DET 5",
+            "ydstogo": 2,
+            "ydsnet": 60,
+            "posteam": "OAK",
+            "desc": "(9:35) D.McFadden left guard to DET 1 for 4 yards (D.Levy).",
+            "note": null,
+            "players": {
+              "0": [
+                {
+                  "sequence": 1,
+                  "clubcode": "OAK",
+                  "playerName": "",
+                  "statId": 3,
+                  "yards": 0
+                }
+              ],
+              "00-0027050": [
+                {
+                  "sequence": 3,
+                  "clubcode": "DET",
+                  "playerName": "D.Levy",
+                  "statId": 79,
+                  "yards": 0
+                }
+              ],
+              "00-0026144": [
+                {
+                  "sequence": 2,
+                  "clubcode": "OAK",
+                  "playerName": "D.McFadden",
+                  "statId": 10,
+                  "yards": 4
+                }
+              ]
+            }
+          },
+          "1422": {
+            "sp": 0,
+            "qtr": 2,
+            "down": 1,
+            "time": "08:52",
+            "yrdln": "DET 1",
+            "ydstogo": 1,
+            "ydsnet": 60,
+            "posteam": "OAK",
+            "desc": "(8:52) D.McFadden up the middle to DET 1 for no gain (C.Mosley).",
+            "note": null,
+            "players": {
+              "00-0023624": [
+                {
+                  "sequence": 2,
+                  "clubcode": "DET",
+                  "playerName": "C.Mosley",
+                  "statId": 79,
+                  "yards": 0
+                }
+              ],
+              "00-0026144": [
+                {
+                  "sequence": 1,
+                  "clubcode": "OAK",
+                  "playerName": "D.McFadden",
+                  "statId": 10,
+                  "yards": 0
+                }
+              ]
+            }
+          },
+          "1443": {
+            "sp": 1,
+            "qtr": 2,
+            "down": 2,
+            "time": "08:10",
+            "yrdln": "DET 1",
+            "ydstogo": 1,
+            "ydsnet": 60,
+            "posteam": "OAK",
+            "desc": "(8:10) D.McFadden right guard for 1 yard, TOUCHDOWN.",
+            "note": "TD",
+            "players": {
+              "0": [
+                {
+                  "sequence": 1,
+                  "clubcode": "OAK",
+                  "playerName": "",
+                  "statId": 3,
+                  "yards": 0
+                }
+              ],
+              "00-0026144": [
+                {
+                  "sequence": 2,
+                  "clubcode": "OAK",
+                  "playerName": "D.McFadden",
+                  "statId": 11,
+                  "yards": 1
+                }
+              ]
+            }
+          },
+          "1461": {
+            "sp": 1,
+            "qtr": 2,
+            "down": 0,
+            "time": "08:09",
+            "yrdln": "DET 15",
+            "ydstogo": 0,
+            "ydsnet": 60,
+            "posteam": "OAK",
+            "desc": "S.Janikowski extra point is GOOD, Center-J.Condo, Holder-M.King.",
+            "note": "XP",
+            "players": {
+              "00-0019646": [
+                {
+                  "sequence": 1,
+                  "clubcode": "OAK",
+                  "playerName": "S.Janikowski",
+                  "statId": 72,
+                  "yards": 0
+                }
+              ]
+            }
+          }
+        },
+        "fds": 6,
+        "result": "Touchdown",
+        "penyds": 5,
+        "ydsgained": 55,
+        "numplays": 4,
+        "postime": "5:22",
+        "start": {
+          "qtr": 2,
+          "time": "13:31",
+          "yrdln": "OAK 40",
+          "team": "OAK"
+        },
+        "end": {
+          "qtr": 2,
+          "time": "08:09",
+          "yrdln": "DET 1",
+          "team": "OAK"
+        }
+      },
+      "8": {
+        "posteam": "DET",
+        "plays": {},
+        "fds": 0,
+        "result": "Punt",
+        "penyds": 0,
+        "ydsgained": 5,
+        "numplays": 0,
+        "postime": "1:07",
+        "start": {
+          "qtr": 2,
+          "time": "08:09",
+          "yrdln": "DET 20",
+          "team": "DET"
+        },
+        "end": {
+          "qtr": 2,
+          "time": "07:02",
+          "yrdln": "DET 25",
+          "team": "DET"
+        }
+      },
+      "9": {
+        "posteam": "OAK",
+        "plays": {},
+        "fds": 3,
+        "result": "Field Goal",
+        "penyds": 0,
+        "ydsgained": 50,
+        "numplays": 0,
+        "postime": "3:58",
+        "start": {
+          "qtr": 2,
+          "time": "07:02",
+          "yrdln": "OAK 41",
+          "team": "OAK"
+        },
+        "end": {
+          "qtr": 2,
+          "time": "03:04",
+          "yrdln": "DET 9",
+          "team": "OAK"
+        }
+      },
+      "10": {
+        "posteam": "DET",
+        "plays": {},
+        "fds": 2,
+        "result": "Field Goal",
+        "penyds": -10,
+        "ydsgained": 52,
+        "numplays": 0,
+        "postime": "2:56",
+        "start": {
+          "qtr": 2,
+          "time": "03:04",
+          "yrdln": "DET 20",
+          "team": "DET"
+        },
+        "end": {
+          "qtr": 2,
+          "time": "00:08",
+          "yrdln": "OAK 38",
+          "team": "DET"
+        }
+      },
+      "11": {
+        "posteam": "OAK",
+        "plays": {},
+        "fds": 0,
+        "result": "End of Half",
+        "penyds": 0,
+        "ydsgained": -1,
+        "numplays": 0,
+        "postime": "0:08",
+        "start": {
+          "qtr": 2,
+          "time": "00:08",
+          "yrdln": "OAK 18",
+          "team": "OAK"
+        },
+        "end": {
+          "qtr": 2,
+          "time": "00:00",
+          "yrdln": "OAK 18",
+          "team": "OAK"
+        }
+      },
+      "12": {
+        "posteam": "DET",
+        "plays": {},
+        "fds": 5,
+        "result": "Touchdown",
+        "penyds": 0,
+        "ydsgained": 83,
+        "numplays": 0,
+        "postime": "4:46",
+        "start": {
+          "qtr": 3,
+          "time": "15:00",
+          "yrdln": "DET 17",
+          "team": "DET"
+        },
+        "end": {
+          "qtr": 3,
+          "time": "10:14",
+          "yrdln": "OAK 1",
+          "team": "DET"
+        }
+      },
+      "13": {
+        "posteam": "OAK",
+        "plays": {},
+        "fds": 0,
+        "result": "Punt",
+        "penyds": 0,
+        "ydsgained": 5,
+        "numplays": 0,
+        "postime": "1:00",
+        "start": {
+          "qtr": 3,
+          "time": "10:14",
+          "yrdln": "OAK 11",
+          "team": "OAK"
+        },
+        "end": {
+          "qtr": 3,
+          "time": "09:14",
+          "yrdln": "OAK 16",
+          "team": "OAK"
+        }
+      },
+      "14": {
+        "posteam": "DET",
+        "plays": {},
+        "fds": 1,
+        "result": "Punt",
+        "penyds": 0,
+        "ydsgained": 22,
+        "numplays": 0,
+        "postime": "2:16",
+        "start": {
+          "qtr": 3,
+          "time": "09:14",
+          "yrdln": "DET 28",
+          "team": "DET"
+        },
+        "end": {
+          "qtr": 3,
+          "time": "06:58",
+          "yrdln": "50",
+          "team": "DET"
+        }
+      },
+      "15": {
+        "posteam": "OAK",
+        "plays": {},
+        "fds": 4,
+        "result": "Touchdown",
+        "penyds": 0,
+        "ydsgained": 80,
+        "numplays": 0,
+        "postime": "4:26",
+        "start": {
+          "qtr": 3,
+          "time": "06:58",
+          "yrdln": "OAK 20",
+          "team": "OAK"
+        },
+        "end": {
+          "qtr": 3,
+          "time": "02:32",
+          "yrdln": "DET 3",
+          "team": "OAK"
+        }
+      },
+      "16": {
+        "posteam": "DET",
+        "plays": {},
+        "fds": 0,
+        "result": "Punt",
+        "penyds": 0,
+        "ydsgained": -1,
+        "numplays": 0,
+        "postime": "1:56",
+        "start": {
+          "qtr": 3,
+          "time": "02:32",
+          "yrdln": "DET 19",
+          "team": "DET"
+        },
+        "end": {
+          "qtr": 3,
+          "time": "00:36",
+          "yrdln": "DET 18",
+          "team": "DET"
+        }
+      },
+      "17": {
+        "posteam": "OAK",
+        "plays": {},
+        "fds": 0,
+        "result": "Field Goal",
+        "penyds": -15,
+        "ydsgained": 21,
+        "numplays": 0,
+        "postime": "1:30",
+        "start": {
+          "qtr": 3,
+          "time": "00:36",
+          "yrdln": "DET 23",
+          "team": "OAK"
+        },
+        "end": {
+          "qtr": 3,
+          "time": "14:06",
+          "yrdln": "DET 17",
+          "team": "OAK"
+        }
+      },
+      "18": {
+        "posteam": "DET",
+        "plays": {},
+        "fds": 5,
+        "result": "Field Goal",
+        "penyds": 15,
+        "ydsgained": 61,
+        "numplays": 0,
+        "postime": "6:32",
+        "start": {
+          "qtr": 4,
+          "time": "14:06",
+          "yrdln": "DET 17",
+          "team": "DET"
+        },
+        "end": {
+          "qtr": 4,
+          "time": "07:34",
+          "yrdln": "OAK 7",
+          "team": "DET"
+        }
+      },
+      "19": {
+        "posteam": "OAK",
+        "plays": {},
+        "fds": 3,
+        "result": "Fumble",
+        "penyds": 5,
+        "ydsgained": 72,
+        "numplays": 0,
+        "postime": "3:15",
+        "start": {
+          "qtr": 4,
+          "time": "07:34",
+          "yrdln": "OAK 21",
+          "team": "OAK"
+        },
+        "end": {
+          "qtr": 4,
+          "time": "04:19",
+          "yrdln": "DET 26",
+          "team": "OAK"
+        }
+      },
+      "20": {
+        "posteam": "DET",
+        "plays": {},
+        "fds": 0,
+        "result": "Punt",
+        "penyds": 0,
+        "ydsgained": 7,
+        "numplays": 0,
+        "postime": "1:47",
+        "start": {
+          "qtr": 4,
+          "time": "04:19",
+          "yrdln": "DET 20",
+          "team": "DET"
+        },
+        "end": {
+          "qtr": 4,
+          "time": "02:32",
+          "yrdln": "DET 27",
+          "team": "DET"
+        }
+      },
+      "21": {
+        "posteam": "OAK",
+        "plays": {},
+        "fds": 5,
+        "result": "Touchdown",
+        "penyds": 4,
+        "ydsgained": 64,
+        "numplays": 0,
+        "postime": "2:26",
+        "start": {
+          "qtr": 4,
+          "time": "02:32",
+          "yrdln": "OAK 32",
+          "team": "OAK"
+        },
+        "end": {
+          "qtr": 4,
+          "time": "00:06",
+          "yrdln": "DET 19",
+          "team": "OAK"
+        }
+      },
+      "22": {
+        "posteam": "DET",
+        "qtr": 4,
+        "redzone": true,
+        "plays": {
+          "4587": {
+            "sp": 0,
+            "qtr": 4,
+            "down": 0,
+            "time": "00:00",
+            "yrdln": "",
+            "ydstogo": 0,
+            "ydsnet": 0,
+            "posteam": "",
+            "desc": "END GAME",
+            "note": null,
+            "players": {}
+          }
+        },
+        "fds": 0,
+        "result": "End of Game",
+        "penyds": 0,
+        "ydsgained": 0,
+        "numplays": 1,
+        "postime": "0:06",
+        "start": {
+          "qtr": 4,
+          "time": "00:06",
+          "yrdln": "",
+          "team": "DET"
+        },
+        "end": {
+          "qtr": 4,
+          "time": "00:00",
+          "yrdln": "",
+          "team": "DET"
+        }
+      },
+      "crntdrv": 22
+    },
+    "scrsummary": {
+      "1443": {
+        "type": "TD",
+        "desc": "D.McFadden 1 yd. run (S.Janikowski kick is good) Drive: 11 plays, 60 yards in 5:22",
+        "qtr": 2,
+        "team": "OAK",
+        "players": {
+          "": "0",
+          "D.McFadden": "00-0026144",
+          "S.Janikowski": "00-0019646"
+        }
+      }
+    },
+    "weather": null,
+    "media": null,
+    "yl": "",
+    "qtr": "Final",
+    "note": null,
+    "down": 0,
+    "togo": 0,
+    "redzone": true,
+    "clock": "00:00",
+    "posteam": "DET",
+    "stadium": null
+  },
+  "nextupdate": 9
+}
