@@ -1,11 +1,13 @@
 require('dotenv').config();
-const fs = require('fs');
 const path = require('path');
 const fetch = require('./fetcher');
 const asyncUtils = require('./asyncUtils');
+const fileUtils = require('./fileUtils');
 
 const arrayMap = asyncUtils.arrayMap;
 const arrayEach = asyncUtils.arrayEach;
+
+const fsWriteFile = fileUtils.writeFile;
 
 const urlGenerator = (number) => `http://www.nfl.com/liveupdate/game-center/${number}/${number}_gtd.json`
 
@@ -23,19 +25,6 @@ const fetchJson = (url) => fetch(url)
     }
   });
 const fetchText = (url) => fetch(url);
-
-function fsWriteFile(file, data, options) {
-  return new Promise((accept, reject) => {
-    fs.writeFile(file, data, options, (err) => {
-      if (err) {
-        reject(err);
-        return;
-      }
-
-      accept();
-    });
-  });
-}
 
 async function weekGames(season, seasonType, week) {
   const url = `http://www.nfl.com/ajax/scorestrip?season=${season}&seasonType=${seasonType}&week=${week}`;

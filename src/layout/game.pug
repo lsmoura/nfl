@@ -1,0 +1,49 @@
+extends layout.pug
+
+block content
+  h1
+    = game.away.abbr
+    |
+    | (
+    = game.away.score.T
+    | )
+    |
+    | @
+    |
+    = game.home.abbr
+    |
+    | (
+    = game.home.score.T
+    | )
+  p= game.date
+
+  - let playcount = 1; let drivecount = 1;
+  each drive in Object.keys(game.drives).map(key => game.drives[key])
+    div
+      div
+        span.drive-sequence
+          | Drive
+          |
+          = drivecount++
+        span= drive.posteam
+      each play in Object.keys(drive.plays || {}).map(key => drive.plays[key])
+        div.play
+          span.play-sequence= playcount++
+          span.play-time= play.time
+          span.play-pos= play.yrdln
+          span.play-desc= play.desc
+
+  div.scores
+    div Score Summary
+    each score in Object.keys(game.scrsummary).map(key => game.scrsummary[key])
+      div.score
+        div= score.team
+        div
+          span Type
+          span= score.type
+        div= score.desc
+      div.players
+        each player in Object.keys(score.players).filter(key => key !== '').map(playerName => ({ name: playerName, code: score.players[playerName]}))
+          div= player.name + '(' + player.code + ')'
+
+  p some game content

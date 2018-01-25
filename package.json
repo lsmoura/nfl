@@ -6,7 +6,10 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^4.0.0",
+    "metalsmith": "^2.3.0",
+    "moment": "^2.20.1",
     "node-fetch": "^1.7.3",
+    "pug": "^2.0.0-rc.4",
     "redis": "^2.8.0"
   }
 }
