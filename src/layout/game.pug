@@ -1,5 +1,13 @@
 extends layout.pug
 
+block title
+  - const homeTeam = game.home.abbr; const awayTeam = game.away.abbr;
+  = game.away.abbr
+  |
+  | vs
+  |
+  = game.home.abbr
+  
 block content
   h1
     = game.away.abbr
@@ -29,8 +37,11 @@ block content
       each play in Object.keys(drive.plays || {}).map(key => drive.plays[key])
         div.play
           span.play-sequence= playcount++
+          |
           span.play-time= play.time
+          |
           span.play-pos= play.yrdln
+          |
           span.play-desc= play.desc
 
   div.scores
@@ -46,4 +57,56 @@ block content
         each player in Object.keys(score.players).filter(key => key !== '').map(playerName => ({ name: playerName, code: score.players[playerName]}))
           div= player.name + '(' + player.code + ')'
 
-  p some game content
+  div.stats
+    table.stats
+      thead
+        tr
+          th
+          th= homeTeam
+          th= awayTeam
+      tbody
+        tr
+          th Total FD
+          td= game.home.stats.team.totfd
+          td= game.away.stats.team.totfd
+        tr
+          th Total Yards
+          td= game.home.stats.team.totyds
+          td= game.away.stats.team.totyds
+        tr
+          th pyds
+          td= game.home.stats.team.pyds
+          td= game.away.stats.team.pyds
+          
+        tr
+          th ryds
+          td= game.home.stats.team.ryds
+          td= game.away.stats.team.ryds
+        tr
+          th pen
+          td= game.home.stats.team.pen
+          td= game.away.stats.team.pen
+        tr
+          th penyds
+          td= game.home.stats.team.penyds
+          td= game.away.stats.team.penyds
+        tr
+          th trnovr
+          td= game.home.stats.team.trnovr
+          td= game.away.stats.team.trnovr
+        tr
+          th pt
+          td= game.home.stats.team.pt
+          td= game.away.stats.team.pt
+        tr
+          th ptyds
+          td= game.home.stats.team.ptyds
+          td= game.away.stats.team.ptyds
+        tr
+          th ptavg
+          td= game.home.stats.team.ptavg
+          td= game.away.stats.team.ptavg
+        tr
+          th Time of Possession
+          td= game.home.stats.team.top
+          td= game.away.stats.team.top

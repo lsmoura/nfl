@@ -4,14 +4,34 @@ const path = require('path');
 const { arrayEach } = require('./asyncUtils');
 const htmlBuilder = require('./buildLayout');
 
+const players = {};
+
 function filterRoot() {
   return (files, metalsmith, done) => {
-    Object.keys(files).forEach(file => {
-      if (file.indexOf('/') >= 0) {
+    const years = {};
+
+    Object.keys(files).forEach(fileKey => {
+      const file = files[fileKey];
+      if (fileKey.indexOf('/') >= 0) {
         file.layout = 'game';
       } else {
         file.layout = 'game-list';
+
+        const year = parseInt(fileKey.substr(0,4), 10);
+        file.year = year;
+
+        if (!years[year]) years[year] = [];
+        years[year].push(fileKey);
       }
+    });
+
+    Object.keys(years).forEach(year => {
+      files[`${year}/index.html`] = {
+        layout: 'year',
+        files: years[year],
+        mode: '0644',
+        content: '',
+      };
     });
 
     done();
@@ -20,8 +40,10 @@ function filterRoot() {
 
 function processGames() {
   return async (files, metalsmith, done) => {
+    const gameFiles = Object.keys(files)
+      .filter(fileKey => files[fileKey].layout === 'game');
     await arrayEach(
-      Object.keys(files).filter(fileKey => files[fileKey].layout === 'game'),
+      gameFiles,
       async (fileKey) => {
         const file = files[fileKey];
         const number = fileKey.replace(/\/([0-9]*)\.json/, '$1').substr(0, 10);
@@ -44,9 +66,13 @@ function processGames() {
           const newFile = {
             contents: result,
             mode: '0644',
+            source: gameContents,
+            key: gameKey,
+            layout: 'game',
           };
           const newFileName = fileKey.replace('.json', '/index.html');
           files[newFileName] = newFile;
+          delete files[fileKey];
         } catch (err) {
           console.error(`cannot process file ${fileKey}`);
           console.error(err);
